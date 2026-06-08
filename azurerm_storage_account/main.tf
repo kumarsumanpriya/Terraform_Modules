@@ -1,5 +1,3 @@
-variable "storage" {}
-
 resource "azurerm_storage_account" "storage" {
   for_each                 = var.storage
   name                     = each.value.name

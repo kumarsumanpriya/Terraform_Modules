@@ -1,5 +1,3 @@
-variable "resource" {}
-
 resource "azurerm_resource_group" "resource" {
   for_each = var.resource
   name     = each.value.name

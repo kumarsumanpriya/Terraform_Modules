@@ -1,5 +1,3 @@
-variable "virtual-network" {}
-
 resource "azurerm_virtual_network" "virtual-network" {
     for_each = var.virtual-network
     name = each.value.name
