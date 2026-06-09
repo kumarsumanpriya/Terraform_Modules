@@ -4,6 +4,6 @@ resource "azurerm_virtual_network" "virtual-network" {
     location = each.value.location
     resource_group_name = each.value.rg
     address_space = each.value.as
-    dns_servers = each.value.ds
+    # dns_servers = each.value.ds
 
 }
