@@ -1,1 +1,1 @@
-variable "nsg" {}
+# variable "nsg" {}

@@ -1,1 +1,1 @@
-variable "virtual_network" {}
+variable "vnet" {}
